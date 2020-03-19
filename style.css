@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400,700,800&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+body{
+ font-family: 'Nunito sans', sans-serif ;
+ background-color: #edeedf;
+}
+#Home {
+    background: black;
+    color: white;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+       
+}
+#Bio{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+#Portfolio {
+    background: url(5646.jpg) ;
+    background-color: black;
+    color: white;
+    height:500px;
+   display:flex;
+  justify-content: space-around;
+  white-space: normal;
+ align-items: center;
+}
+#Portfolio h3{
+    justify-content: center;
+    align-items: center;
+}
+#Portfolio div{
+    background: white;
+    color: black;
+    height: 250px;
+    width: 250px;
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+#Portfolio div1{
+    background: white;
+    color: black;
+    height: 250px;
+    width: 250px;
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+.logo-text{
+    font-size: 3em;
+    font-weight: 700;
+    color: #f05136;
+}
+.nav-link{
+    font-size: 1.8em;
+    color: black;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: #f05136;
+}
+#Bio{
+    height: 450px;
+}
+#Bio h2{
+    padding-left: 5%;
+}
+#Bio article p{
+    font-size: 1.5em;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    justify-content: center;
+}
+#Bio img{
+    padding-left:5%;
+    padding-right: 5%;
+}
+#Bio a{
+    margin-left: 5%;
+}
+nav ul{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding:10px;
+}
+nav ul li{
+    margin: 0 20px;
+}
+#Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-top: 5%;
+}
+h1,h2,h3,h4,h5,h6,h7{
+    font-weight: 700;
+}
+h1{
+    font-size: 3em;
+}
+h2{
+    font-size: 2em;
+}
+h3,h7,h5{
+    font-size: 2em;
+  }
+h5{
+    display: flex;
+    justify-content: center;
+    background-color: #edeedf;
+    padding-top: 5%;
+}
+h6{
+    font-size: 2em;
+}
+h4{
+    font-size: large;
+}
+#Skills div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    background-color: #edeedf;
+    color: black;
+    
+}
+.link-button{
+    text-decoration: none;
+    text-align: center;
+    background: #f05136;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    color:white;
+    font-size: 1.3em;
+    padding:10px;
+    border-radius: 5%;
+}
+.link-button:hover{
+     color:white;
+}
+#Bio img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+#Bio p{
+    font-size: 1.5em;
+}
